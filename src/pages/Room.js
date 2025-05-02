@@ -25,7 +25,7 @@ export default function Room() {
 
   const [isScreenFull, setIsScreenFull] = useState(false);
   const [chatInput, setChatInput] = useState('');
-  const [chatOpen, setChatOpen] = useState(true); // Toggle for chat box
+  const [chatOpen, setChatOpen] = useState(false); // Toggle for chat box
 
   const toggleFullScreen = () => {
     setIsScreenFull(!isScreenFull);
